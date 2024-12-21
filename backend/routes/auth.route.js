@@ -1,5 +1,5 @@
 import express from 'express'
-import { getMe, login, logout, signup } from '../controllers/auth.contorller.js'
+import { getMe, login, logout, signup } from '../controllers/auth.controller.js'
 import { protectRoute } from '../middlewares/protectRoute.js'
 
 
