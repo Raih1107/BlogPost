@@ -1,8 +1,16 @@
 import React from "react";
 
 const XSvg = (props) => (
-	<svg aria-hidden='true' viewBox='0 0 24 24' {...props}>
-		<path d='M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z' />
-	</svg>
+	<svg
+    viewBox="0 0 100 100"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    aria-hidden="true"
+    {...props}
+  >
+    <circle cx="50" cy="50" r="40" stroke="black" strokeWidth="4" fill="none" />
+    <line x1="50" y1="10" x2="50" y2="90" stroke="black" strokeWidth="4" />
+    <line x1="10" y1="50" x2="90" y2="50" stroke="black" strokeWidth="4" />
+  </svg>
 );
 export default XSvg;
