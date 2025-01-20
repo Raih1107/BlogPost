@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { useState } from "react";
 
 import Posts from "../../components/common/Posts";
